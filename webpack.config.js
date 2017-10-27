@@ -1,5 +1,3 @@
-// var path = require('path');
-
 module.exports = {
   entry: {
     App: "./app/assets/scripts/App.js",
@@ -12,7 +10,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        loader: 'babel-loader',
+        loader: 'babel',
         query: {
           presets: ['es2015']
         },
